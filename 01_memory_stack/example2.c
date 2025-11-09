@@ -9,13 +9,14 @@ int sum(int x, int y) {
 } 
 
 int main(){
-  const int size = 10;
-  int* local_ptr;
-  local_ptr = (int*)malloc(size*sizeof(int));
-  free(local_ptr);
+    const int size = 10;
+    int* local_ptr;
+    local_ptr = (int*)malloc(size*sizeof(int));
+    free(local_ptr);
 
-  int a = 2, b = 3, c;
-  c = func(a, b);
+    int a = 2, b = 3, c;
+    c = func(a, b);
+    printf("meow ^._.^");
 
-  return 0;
+    return 0;
 }
