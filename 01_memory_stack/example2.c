@@ -5,7 +5,7 @@ int global1 = 1;
 int global2;
 
 int sum(int x, int y) {
-    staic int call_count = 0
+    static int call_count = 0
     call_count++;
     return x + y;
 } 
