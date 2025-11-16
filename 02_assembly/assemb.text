@@ -1,0 +1,39 @@
+(gdb) set disassembly-flavor intel
+(gdb) disas main
+Dump of assembler code for function main:
+   0x0804917c <+0>:	lea    ecx,[esp+0x4]
+   0x08049180 <+4>:	and    esp,0xfffffff0
+   0x08049183 <+7>:	push   DWORD PTR [ecx-0x4]
+   0x08049186 <+10>:	push   ebp
+   0x08049187 <+11>:	mov    ebp,esp
+   0x08049189 <+13>:	push   ecx
+   0x0804918a <+14>:	sub    esp,0x14
+   0x0804918d <+17>:	mov    DWORD PTR [ebp-0xc],0x2
+   0x08049194 <+24>:	mov    DWORD PTR [ebp-0x10],0x3
+   0x0804919b <+31>:	push   DWORD PTR [ebp-0x10]
+   0x0804919e <+34>:	push   DWORD PTR [ebp-0xc]
+   0x080491a1 <+37>:	call   0x8049166 <sum>
+   0x080491a6 <+42>:	add    esp,0x8
+   0x080491a9 <+45>:	mov    DWORD PTR [ebp-0x14],eax
+   0x080491ac <+48>:	sub    esp,0x8
+   0x080491af <+51>:	push   DWORD PTR [ebp-0x14]
+   0x080491b2 <+54>:	push   0x804a008
+   0x080491b7 <+59>:	call   0x8049040 <printf@plt>
+   0x080491bc <+64>:	add    esp,0x10
+   0x080491bf <+67>:	mov    eax,0x0
+   0x080491c4 <+72>:	mov    ecx,DWORD PTR [ebp-0x4]
+   0x080491c7 <+75>:	leave
+--Type <RET> for more, q to quit, c to continue without paging--Quit
+(gdb) disas sum
+Dump of assembler code for function sum:
+   0x08049166 <+0>:	push   ebp
+   0x08049167 <+1>:	mov    ebp,esp
+   0x08049169 <+3>:	sub    esp,0x10
+   0x0804916c <+6>:	mov    edx,DWORD PTR [ebp+0x8]
+   0x0804916f <+9>:	mov    eax,DWORD PTR [ebp+0xc]
+   0x08049172 <+12>:	add    eax,edx
+   0x08049174 <+14>:	mov    DWORD PTR [ebp-0x4],eax
+   0x08049177 <+17>:	mov    eax,DWORD PTR [ebp-0x4]
+   0x0804917a <+20>:	leave
+   0x0804917b <+21>:	ret
+End of assembler dump.
