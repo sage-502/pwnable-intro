@@ -10,7 +10,7 @@ sudo usermod -aG docker $USER
 
 docker run -it --rm ubuntu:22.04 bash
 
-exit
+exit(나가기)
 ```
 
 ### 1. 가상머신 환경 세팅
