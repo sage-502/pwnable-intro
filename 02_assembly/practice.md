@@ -89,7 +89,7 @@ disas sum
 
 ### 5. 어셈블리 보고 스택 프레임 추적
 
-[assemb.text]()
+[assemb.text](https://github.com/sage-502/pwnable-intro/blob/main/02_assembly/assemb.text)
 
 ### 6. gdb x로 스택 프레임 확인
 
