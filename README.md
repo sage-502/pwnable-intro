@@ -12,7 +12,7 @@
 | 02   | GDB & Assembly | 디버깅 기초, 어셈블리 코드 이해 |
 | 03   | Buffer Overflow & Pwntools | BOF 개념과 원리, 익스플로잇 기초 |
 
-### 상세 커리큘럼
+[상세 커리큘럼](https://github.com/sage-502/pwnable-intro/blob/main/curriculum.md)
 
 
 
@@ -21,4 +21,26 @@
 - 리눅스 가상머신 설치
 - `gcc`, `gdb` 설치
 
-  
+## 구성
+```
+pwnable-intro
+├─ 01_memory_stack/
+│  ├─ example1.c                //예제코드
+│  ├─ example2.c                //메모리 영역 퀴즈 코드
+│  ├─ example3.c                //스택 프레임 설명 코드
+│  ├─ week1_note.pdf            //발표자 기록용
+│  └─ pwnable_intro_week1.pdf   //발표자료
+├─ 02_assembly/
+│  ├─ assemb.txt               //디스어셈블링 결과
+│  ├─ practice.md               //실습 환경 세팅
+│  ├─ practice2.c               //선택 과제 코드
+│  ├─ test.c                    //실습 코드 겸 과제 코드
+│  └─ pwnable_intro_week2.pdf   //발표자료
+├─ 03_bof/
+│  ├─ (업데이트 예정)
+│  └─ (업데이트 예정)
+└─ sub-material/
+   ├─ C-intro.md                 //C언어 기초 지식 시트
+   ├─ linux-intro.md             //리눅스 기초 지식 시트
+   └─ install-guide.md           //가상머신 설치 가이드(되는지는 나도 모름)
+```
