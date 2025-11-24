@@ -27,7 +27,7 @@ pwnable-intro
 ├─ 01_memory_stack/
 │  ├─ example1.c                //예제코드
 │  ├─ example2.c                //메모리 영역 퀴즈 코드
-│  ├─ example3.c                //스택 프레임 설명 코드
+│  ├─ example3.c                //여분 예제코드(실사용은 안했음)
 │  ├─ week1_note.pdf            //발표자 기록용
 │  └─ pwnable_intro_week1.pdf   //발표자료
 ├─ 02_assembly/
