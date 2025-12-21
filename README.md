@@ -30,17 +30,17 @@ pwnable-intro
 │  ├─ example2.c                //메모리 영역 퀴즈 코드
 │  ├─ example3.c                //여분 예제코드(실사용은 안했음)
 │  ├─ week1_note.pdf            //발표자 기록용
-│  └─ pwnable_week1.pdf   //발표자료
+│  └─ pwnable_week1.pdf         //발표자료
 ├─ 02_assembly/
-│  ├─ assemb.txt               //디스어셈블링 결과
+│  ├─ assemb.txt                //디스어셈블링 결과
 │  ├─ practice.md               //실습 환경 세팅
 │  ├─ practice2.c               //선택 과제 코드
 │  ├─ test.c                    //실습 코드 겸 과제 코드
 │  └─ pwnable_week2.pdf   //발표자료
 ├─ 03_bof/
-│  ├─ (업데이트 예정)
-│  └─ (업데이트 예정)
-└─ sub-material/
+│  ├─ demo.md                    //시연 설명
+│  └─ pwnable_week3.pdf          //발표자료
+└─ sub-material/      
    ├─ C-intro.md                 //C언어 기초 지식 시트
    ├─ linux-intro.md             //리눅스 기초 지식 시트
    └─ install-guide.md           //가상머신 설치 가이드(되는지는 나도 모름)
